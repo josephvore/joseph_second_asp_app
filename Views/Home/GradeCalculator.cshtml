@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Grade Calculator";
+}
+
+@model joseph_first_asp_app.Models.GradeModel
+
+<body>
+
+    <!--Form for grade calculator-->
+    <fieldset>
+        <legend>Grade Calculator</legend>
+        <form style="border: thin" ; class="mt-5 ml-5 pt-5 pl-5" asp-action="GradeCalculator" method="post">
+            <label asp-for="assignments">Assignments</label>
+            <input asp-for="assignments" />
+            <br />
+            <span asp-validation-for="assignments" class="text-danger"></span>
+            <br />
+            <label asp-for="groupProjects">Group Projects</label>
+            <input asp-for="groupProjects" />
+            <br />
+            <span asp-validation-for="groupProjects" class="text-danger"></span>
+            <br />
+            <label asp-for="quizzes">Quizzes</label>
+            <input asp-for="quizzes" />
+            <br />
+            <span asp-validation-for="quizzes" class="text-danger"></span>
+            <br />
+            <label asp-for="exams">Exams</label>
+            <input asp-for="exams" />
+            <br />
+            <span asp-validation-for="exams" class="text-danger"></span>
+            <br />
+            <label asp-for="intex">Intex</label>
+            <input asp-for="intex" />
+            <br />
+            <span asp-validation-for="intex" class="text-danger"></span>
+            <br />
+            <br />
+            <input id="submitButton" type="submit" value="Calculate Grade" />
+        </form>
+    </fieldset>
+
+</body>

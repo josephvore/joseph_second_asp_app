@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gLvAv+susLzhO6zITlzKp1tXwtGM0FiGprmG63Z3sPEjz76Y55CS+XTR9Rwl/VeIF4JHZStB2vDXz9NObZVdmw==",
+  "success": true,
+  "projectFilePath": "/Users/josephvore/Projects/joseph_first_asp_app/joseph_first_asp_app/joseph_first_asp_app.csproj",
+  "expectedPackageFiles": [
+    "/Users/josephvore/.nuget/packages/odetocode.usenodemodules/3.0.0/odetocode.usenodemodules.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

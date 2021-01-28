@@ -1,0 +1,26 @@
+{
+  "name": "joseph_first_asp_app",
+  "version": "1.0.0",
+  "description": "My first app",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "jquery-validation": "^1.19.3",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephvore/first_asp_app.git"
+  },
+  "author": "Joseph Vore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephvore/first_asp_app/issues"
+  },
+  "homepage": "https://github.com/josephvore/first_asp_app#readme"
+}
